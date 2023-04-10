@@ -1,0 +1,141 @@
+@charset "UTF-8";
+html{
+    font-size:100%; 
+}
+img{
+    max-width:100%; 
+    max-height: 100%;
+}
+body{
+    margin: auto;
+    width: 100%;
+}
+/* header */
+header  {
+    margin:0 auto;
+    padding-bottom: 32.69px;
+    position: relative;
+    background-color: #f2f3f7;
+    width: 100%;
+}
+.header-bg {
+    position: relative;
+    overflow: hidden;
+    background-image:
+    url(images/background-images.png);
+    background-position:top center;
+    background-size:contain;
+    background-repeat:no-repeat;
+    height: auto;
+    min-height: 750px;
+}
+/* nav */
+.header-contents {
+    position: relative;
+    margin:59px auto 0 auto;
+    width: 975px;
+    height: 77px;
+    box-shadow: 4px 4px 1px #00000029;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.logo {
+    padding-left: 37px;
+}
+.header-navlists {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.25rem;
+}
+.nav-item-contact {
+    padding-right: 44.5px;
+}
+.nav-item a::after {
+    display: block;
+    color: #777;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0.875rem;
+}
+.header-nav li + li {
+    border-left: 0.926px solid #000;
+    height: 0.875rem;
+
+}
+.nav-item-about a::after {
+    content: "企業情報";
+}
+.nav-item-news a::after {
+    content: "ニュース";
+}
+.nav-item-service a::after {
+    content: "サービス&製品情報";
+}
+.nav-item-service {
+    white-space: nowrap
+}
+.nav-item-contact a::after {
+    content: "お問い合わせ";
+}
+.headerNavlists {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+.header-navlists a {
+    padding:5px 54.5px;
+}
+.title-text2 {
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    width: 21.3125rem;
+    height: 16.3125rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.75rem;
+    line-height: 5.461875rem;
+    color: #D4004E;
+}
+.title-textp {
+    position: absolute;
+    top: 410px;
+    left: 10%;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #D4004E;
+}
+/* images */
+.scroll {
+    position: absolute;
+    top: 749px;
+    left:50%;
+    width: 2.9375rem;
+    height: 5.168125rem;
+} 
+ 
